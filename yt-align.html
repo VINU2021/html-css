@@ -5,72 +5,244 @@
 		*{
 		font-family:arial;
 		}
+		
 
+		/* tiltle of the video */
 		.title{
 		color:black;
-		font-size:18px;
+		font-size:16px;
 		font-weight:bold;
 		margin-bottom:5px;
-		width:300px;
+		margin-top:0px;
+		
 		}
 		
 		
-
+		/* published time and views */
 		.stat{
 		color:#4d6152;
-		margin-top:5px;
+		margin-top:0px;
 		margin-bottom:5px;
-		width:300px;
+		font-size:13px;
 		}
 
-		.des{
+		.channel-name{
 		line-height:20.5px;
-		margin-top:5px;
 		color:#4d6152;
-		width:300px;
+		margin-top:8px;
+		font-size:13px;
+		margin-bottom:0px;
 		}
 		
 		
+		/* thumbnail */
 	    .thumb{
-		width:300px;
-		margin-bottom:2px;
+		width:100%;
+		height:100%
 		}
 		
+		/* the whole video card */
 		.preview{
-		display:inline-block;
-		margin:10px;
 		}
 		
-		.preview:hover{
+		/*.preview:hover{
 		padding-bottom:20px;
 		padding-left:15px;
 		padding-right:15px;
 		box-shadow:2px 2px 4px rgba(0,0,0,0.35);
 		transition:0.15s;
+		}*/
+		
+		/* search bar */
+		.i1{
+		display:block;
+		}
+		
+		.channel-profile{
+		width:75%;
+		border-radius:50%;
+		}
+		
+		.channel-logo{
+		}
+		
+		.channel-info{
+		}
+		
+		.video{
+		display: grid;
+		grid-template-columns: 50px 1fr;
+		}
+		
+		.thumbnail{
+		margin-bottom: 10px;
+		}
+		
+		
+		.video-grid{
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr;
+		column-gap:15px;
+		row-gap:30px;
 		}
 		
 	</style>
 </head>
 
 <body>
-	<div class="preview">
-		<img  class="thumb"src="BTS-21.jpg">
+    <input class="i1" type="text" placeholder="Search" >
+		<div class="video-grid">
+		
+		 <div class="preview">
+				<div class="thumbnail">
+					<img  class="thumb"src="BTS-21.jpg">
+				</div>
+				
+				<div class="video">
+				
+					<div class="channel-logo" >
+						 <img class="channel-profile" src="download.png" > 
+					</div>
 
-		<p class="title" 
-		<a href="https://youtu.be/ssD6mzewGVo">BTS Run BTS Lyrics (방탄소년단 달려라 방탄 가사) (Color Coded Lyrics)</a>
-		</p>
- 
-		<p class="stat">3.3m views &#183; 2 weeks ago</p>
+					<div class="channel-info">
+						<p class="title" >BTS Run BTS Lyrics (방탄소년단 달려라 방탄 가사)
+						(Color Coded Lyrics)
+						</p>
+						
+						<p class="channel-name">hello BTS! songs</p>
+				 
+						<p class="stat">3.3m views &#183; 2 weeks ago</p>
 
-		<p class="des">hello BTS! songs</p>
-	</div>
-	<div class="preview">
-		<img  class="thumb"src="BTS-21.jpg">
+					</div>
+				
+				</div>
+		 </div>
+		
 
-		<p class="title" >BTS Run BTS Lyrics (방탄소년단 달려라 방탄 가사) (Color Coded Lyrics)</p>
+		<div class="preview">
+				<div class="thumbnail">
+					<img  class="thumb"src="p4.png">
+				</div>
+				
+				<div class="video">
+				
+					<div class="channel-logo" >
+						 <img class="channel-profile" src="ch2.png" > 
+					</div>
 
-		<p class="stat">3.3m views &#183; 2 weeks ago</p>
+					<div class="channel-info">
+						<p class="title" >Ponniyan Selvan - Tamil Trailer | Mani rathnam | A.R Rahuman
+						</p>
+						
+						<p class="channel-name">Tips Trailer</p>
+				 
+						<p class="stat">3.3m views &#183; 19hours</p>
 
-		<p class="des">hello BTS! songs</p>
-	</div
+					</div>
+				
+				</div>
+		 </div>
+		 
+		 <div class="preview">
+				<div class="thumbnail">
+					<img  class="thumb"src="net.jpg">
+				</div>
+				
+				<div class="video">
+				
+					<div class="channel-logo" >
+						 <img class="channel-profile" src="netch.png" > 
+					</div>
+
+					<div class="channel-info">
+						<p class="title" >Awake Trailer - Netflix 
+						</p>
+						
+						<p class="channel-name">Netflix-Trailers</p>
+				 
+						<p class="stat">152k views &#183; 2 weeks ago</p>
+
+					</div>
+				
+				</div>
+		 </div>
+		 
+		 
+		 <div class="preview">
+				<div class="thumbnail">
+					<img  class="thumb"src="p1.jpg">
+				</div>
+				
+				<div class="video">
+				
+					<div class="channel-logo" >
+						 <img class="channel-profile" src="download.png" > 
+					</div>
+
+					<div class="channel-info">
+						<p class="title" >How to make Create Greate YouTube Thumbnail
+						</p>
+						
+						<p class="channel-name">William style</p>
+				 
+						<p class="stat">113k views &#183; 2 Years ago</p>
+
+					</div>
+				
+				</div>
+		 </div>
+		 
+		 
+		 
+		 <div class="preview">
+				<div class="thumbnail">
+					<img  class="thumb"src="p3.png">
+				</div>
+				
+				<div class="video">
+				
+					<div class="channel-logo" >
+						 <img class="channel-profile" src="chk.png" > 
+					</div>
+
+					<div class="channel-info">
+						<p class="title" >My love from the star | Funny Scenes|
+						</p>
+						
+						<p class="channel-name">My world : Korean Drama</p>
+				 
+						<p class="stat">1m views &#183; 8 Years ago</p>
+
+					</div>
+				
+				</div>
+		 </div>
+		 
+		 <div class="preview">
+				<div class="thumbnail">
+					<img  class="thumb"src="p2.png">
+				</div>
+				
+				<div class="video">
+				
+					<div class="channel-logo" >
+						 <img class="channel-profile" src="download.png" > 
+					</div>
+
+					<div class="channel-info">
+						<p class="title" >Witch : choi wooshik | Slave fmv
+						</p>
+						
+						<p class="channel-name">Cake velvet</p>
+				 
+						<p class="stat">2.4m views &#183; 2 Months ago</p>
+
+					</div>
+				
+				</div>
+		 </div>
+	 
+		</div>
 </html>
+
+
